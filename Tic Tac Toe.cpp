@@ -115,7 +115,11 @@ int main()
 			}
 		}
 	} while (k <= 9);
-
+if(k > 9)
+{
+	cout << "no one won the match";
+	exit(0);
+}
 }
 
 
